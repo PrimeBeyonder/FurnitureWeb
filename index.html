@@ -15,6 +15,7 @@
 
         <!-- css -->
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
 
@@ -23,12 +24,63 @@
 
 
 </head>
-<body>
-    <div class="container mx-auto">
+<body class="bg-gray-100">
 
-        <h1 class="text-6xl">Andrew</h1>
-        <p class="text-pink-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex qui tempore accusantium sequi recusandae ipsum adipisci esse assumenda voluptates id quo dolor asperiores quibusdam, aliquid animi quod repellat quae!</p>
+
+   <header class="__header sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+
+
+    <div class="container" style="margin: 0 auto; display: flex; justify-content: space-between; height: 100%;align-items: center; ">
+
+        
+<a href="#">
+    <img src="./assets/logo.svg" alt="">
+</a>
+<nav>
+
+<div id="nav__trigger__btn">
+    <i class="ri-menu-4-line mb__nav text-primary" id="open__nav"></i>
+
+    
+</div>
+
+    <ul class="nav__ul" id="nav__ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
     </div>
+   </header>
+<!-- page wrapper -->
+
+<main class="max-w-[1920px]">
+
+    <div class="bg-grid">
+
+    </div>
+    <section class="hero h-[640px] xl:h-[848px] bgg-hero bg-cover">
+        <div class="container mx-auto h-full">
+
+
+        <div class="hero__text">
+            <h1 class="h1" style=" margin-bottom: 2.4rem">Let Your Home Be Unique</h1>
+            <p style=" margin-bottom: 2.4rem; ">There are many variations of the passages of lorem Ipsum from available,variations of the passages.</p>
+            <button class="btn btn-primary">Get Free Estimation
+                <i class="ri-arrow-right-line text-accent"></i>
+            </button>
+        </div>
+        </div>
+
+    </section>
+
+    <div class="h-3000px"></div>
+</main>
+
+
 
     <script src="./js/scrollreveal.min.js"></script>
     <script src="./js/main.js"></script>
