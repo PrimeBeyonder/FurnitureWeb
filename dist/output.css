@@ -602,3 +602,39 @@ video {
   --tw-text-opacity: 1;
   color: rgb(249 168 212 / var(--tw-text-opacity));
 }
+
+body {
+  font-family: Jost;
+  font-size: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(77 88 83 / var(--tw-text-opacity));
+}
+
+a {
+  font-size: 20px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(205 162 116 / var(--tw-text-opacity));
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Poppins;
+  --tw-text-opacity: 1;
+  color: rgb(41 47 54 / var(--tw-text-opacity));
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media (min-width: 960px) {
+  .h1 {
+    font-size: 84px;
+  }
+}
