@@ -102,7 +102,41 @@ main .bgg-hero{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-
+.about{
+    margin-top: 80px;
+position: relative;
+z-index: 20;
+}
+.about__container{
+    margin: 0 auto;
+}
+.about__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.about__text{
+    flex: 1;
+    order: 2;
+}
+.about__img{
+    max-width: 453px;
+    order: 1;
+    margin: 0 auto;
+}
+.about__title{
+    font-family: Jost;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.about__sub{
+    font-family: Poppins;
+    font-size: 20px;
+}
 .nav__ul{
     position: fixed;
     display: flex;
@@ -205,6 +239,32 @@ main .bgg-hero{
 
 
 @media (min-width: 1200px) {
+    .about__title{
+     
+        font-size: 47px;
+margin-bottom: 100px;
+    }
+    .about__img{
+        order: 2;
+        max-width: none;
+    }
+    .about__text{
+        order: 1;
+    }
+    .about__content{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        gap: 74px;
+    }
+    .about__sub{
+margin-top: 20px;
+        font-size: 25px;
+    }
+    .about{
+        margin-top: 200px;
+        
+    }
     .step__step{
         border:none;
     }
@@ -233,11 +293,4 @@ main .bgg-hero{
         z-index: 10;
     }
     
-}
-
-@media (min-width: 640px) {
-   
-}
-@media (min-width: 768px) {
-   
 }
