@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
     @apply text-[50px] leading-right;
 }
 .h3{
-    @apply text-[625px];
+    @apply text-[25px];
 }
 .btn{
     height: 75px;
@@ -116,11 +116,47 @@ main .bgg-hero{
     left: 0;
     right: 0;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     transition: all 0.2s ease-in;
     
 
 }
+.step__step{
+    border: 1px solid rgba(128, 128, 128, 0.541);
+    padding: 20px;
+    border-radius: 30px;
+}
+.steps{
+    margin-top: 80px;
+    position: relative;
+    z-index: 20;
+}
+.step__icon{
+    font-size: 3rem;
+    --tw-bg-opacity: 1;
+   color: rgb(205 162 116 / var(--tw-bg-opacity));
+    line-height: 1;
+}
+.step__decs{
+    margin-bottom: 1.25rem;
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    font-weight: 500;
+}
+.step__text{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 1.25rem
+}
+.step__container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 3rem;
+}
+
 .nav-active{
     height: 360px;
     padding: 30px;
@@ -131,6 +167,19 @@ main .bgg-hero{
     cursor: pointer;
 }
 @media (min-width: 960px) {
+   
+    .step__step{
+        border:none;
+    }
+    .step__text{
+        font-size: 30px;
+    }
+    .step__decs{
+        font-size: 14px;
+    }
+    .step__container{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
     .mb__nav{
     visibility: hidden;
     }
@@ -156,6 +205,12 @@ main .bgg-hero{
 
 
 @media (min-width: 1200px) {
+    .step__step{
+        border:none;
+    }
+    .steps{
+        margin-top: 200px;
+    }
     .mb__nav{
         visibility: hidden;
         }
@@ -181,7 +236,7 @@ main .bgg-hero{
 }
 
 @media (min-width: 640px) {
-    
+   
 }
 @media (min-width: 768px) {
    
