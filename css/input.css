@@ -102,6 +102,37 @@ main .bgg-hero{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.testimonial{
+
+    position: relative;
+    z-index: 20;
+    margin: 80px auto;
+}
+.testimonial__container{
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 253 236 / var(--tw-bg-opacity));
+    border-radius: 70px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.swiper__{
+    width: 100%;
+}
+.swiper__container{
+    height: 400px;
+}
+.testimonial__item{
+    width: 100%;
+    max-width: 370px;
+    height: 340px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin: 0 auto;
+}
 .about{
     margin-top: 80px;
 position: relative;
@@ -263,7 +294,9 @@ margin-top: 20px;
     }
     .about{
         margin-top: 200px;
-        
+    }
+    .testimonial{
+        margin-top: 200px;
     }
     .step__step{
         border:none;
