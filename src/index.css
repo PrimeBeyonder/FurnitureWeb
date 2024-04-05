@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .btn{
-    height: 75px;
-    padding-left: 30px;
-    padding-right: 30px;
+    height: 70px;
+    padding-left: 28px;
+    padding-right: 28px;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
@@ -14,7 +14,7 @@
     color: rgb(255 255 255 / var(--tw-text-opacity));
     border-radius: 19px;
 
-
+margin-top: 30px;
     gap: 0.75rem;
 }
 .text-accent {
