@@ -2,6 +2,7 @@ import About from "./components/About/About"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Step from "./components/Step/Step"
+import Testimonial from "./components/Testimonial/Testimonial"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Hero/>
     <Step/>
     <About/>
+    <Testimonial/>
 <div className=" h-[3000px]">
 
 </div>
