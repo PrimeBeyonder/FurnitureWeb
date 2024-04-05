@@ -1,6 +1,4 @@
 import React from 'react';
-import "./Hero.css";
-
 
 const Hero = () => {
   return (
@@ -8,7 +6,9 @@ const Hero = () => {
 <div className="container mx-auto h-full flex items-center justify-center xl:justify-start">
   <div className='hero__text w-[567px] fle flex-col items-center text-center xl:text-left lg:items-start'>
     <h1 className='text-[50px] lg:text-[66px] leading-none font-primary mb-9'>Let Your Home Be Unique</h1>
-    <p className='mb-8'>
+    <p className='mb-8 text-lg' style={{
+      fontWeight: "500",
+    }}>
     There are many variations of the passages of lorem Ipsum from available,variations of the passages.
     </p>
     <button className='btn btn-primary mx-auto xl:mx-0'>

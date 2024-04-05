@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "./Header.css";
 import Logo from "../../assets/logo.svg";
 const Header = () => {
   const [toggle , setToggle] = useState(false);
