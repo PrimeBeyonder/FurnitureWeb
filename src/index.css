@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+    height: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 500ms;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    border-radius: 19px;
+
+
+    gap: 0.75rem;
+}
+.text-accent {
+    --tw-text-opacity: 1;
+    color: rgb(205 162 116 / var(--tw-text-opacity));
+}
+.btn-primary{
+    --tw-bg-opacity: 1;
+    background-color: rgb(41 47 54 / var(--tw-bg-opacity));
+}
+.btn-primary:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(52 62 78 / var(--tw-bg-opacity));
+}
