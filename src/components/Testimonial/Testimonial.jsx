@@ -10,7 +10,9 @@ import { Pagination } from 'swiper/modules';
 const Testimonial = () => {
   return (
 <section className='testimonial mt-[80px] lg:mt-[200px] relative z-20'>
-        <div className='testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6'>
+        <div className='testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6 pb-8'>
+          <div>
+<h2 className='text-[44px] lg:text-[50px] leading-none font-primary flex flex-col items-center pt-[88px] pb-[110px]'>What Client Say</h2>
             <div className='w-full'>
                 <div className='swiper testimonial__slider h-[400px]'>
                 <Swiper
@@ -95,6 +97,7 @@ const Testimonial = () => {
 
                 </div>
             </div>
+          </div>
         </div>
     </section>
   )
