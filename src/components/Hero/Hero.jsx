@@ -11,8 +11,8 @@ const Hero = () => {
     <p className='mb-8'>
     There are many variations of the passages of lorem Ipsum from available,variations of the passages.
     </p>
-    <button className='btn btn-primary'>
-    Get free estimation
+    <button className='btn btn-primary mx-auto xl:mx-0'>
+    Get free estimation <i class="ri-arrow-right-line text-accent font-bold"></i>
     </button>
   </div>
 </div>

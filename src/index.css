@@ -29,3 +29,6 @@
     --tw-bg-opacity: 1;
     background-color: rgb(52 62 78 / var(--tw-bg-opacity));
 }
+a{
+    @apply text-[20px] hover:text-accent transition-all duration-500;
+}
