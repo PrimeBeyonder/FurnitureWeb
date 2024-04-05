@@ -4,6 +4,7 @@ import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Step from "./components/Step/Step"
 import Testimonial from "./components/Testimonial/Testimonial"
+import Work from "./components/Work/Work"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <About/>
     <Testimonial/>
     <Brands/>
+    <Work/>
 <div className=" h-[3000px]">
 
 </div>
