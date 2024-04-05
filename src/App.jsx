@@ -2,6 +2,7 @@ import About from "./components/About/About"
 import Brands from "./components/Brands/Brands"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
+import Stats from "./components/Stats/Stats"
 import Step from "./components/Step/Step"
 import Testimonial from "./components/Testimonial/Testimonial"
 import Work from "./components/Work/Work"
@@ -20,6 +21,7 @@ function App() {
     <Testimonial/>
     <Brands/>
     <Work/>
+    <Stats/>
 <div className=" h-[3000px]">
 
 </div>

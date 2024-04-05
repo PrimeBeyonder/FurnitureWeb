@@ -63,7 +63,7 @@ const Work = () => {
         <p>Decor/Architecture</p>
     </div>
     <button className=' bg-accent-secondary hover:bg-accent w-[70px] h-[70px] rounded-full'>
-<i className="ri-arrow-right-s-line text 3xl text-primary"></i>
+<i className="ri-arrow-right-s-line text-3xl font-bold text-primary"></i>
     </button>
 </div>
 </div>
