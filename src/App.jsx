@@ -1,6 +1,7 @@
 import About from "./components/About/About"
 import Brands from "./components/Brands/Brands"
-import Contac from "./components/Contact/Contac"
+import Contact from "./components/Contact/Contac"
+import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import News from "./components/News/News"
@@ -25,10 +26,9 @@ function App() {
     <Work/>
     <Stats/>
     <News/>
-    <Contac/>
-<div className=" h-[3000px]">
+    <Contact/>
+    <Footer/>
 
-</div>
    </main>
    </>
   )
