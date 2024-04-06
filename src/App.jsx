@@ -1,5 +1,6 @@
 import About from "./components/About/About"
 import Brands from "./components/Brands/Brands"
+import Contac from "./components/Contact/Contac"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import News from "./components/News/News"
@@ -24,6 +25,7 @@ function App() {
     <Work/>
     <Stats/>
     <News/>
+    <Contac/>
 <div className=" h-[3000px]">
 
 </div>

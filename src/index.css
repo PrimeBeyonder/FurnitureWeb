@@ -25,10 +25,17 @@ margin-top: 30px;
     --tw-bg-opacity: 1;
     background-color: rgb(41 47 54 / var(--tw-bg-opacity));
 }
+.btn-accent{
+    --tw-bg-opacity: 1;
+    background-color: rgb(205 162 116 / var(--tw-text-opacity));
+}
 .btn-primary:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(52 62 78 / var(--tw-bg-opacity));
 }
 a{
     @apply text-[20px] hover:text-accent transition-all duration-500;
+}
+.bg-hero{
+    background-image: url("../src/assets/hero/bg.jpg");
 }

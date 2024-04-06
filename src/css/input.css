@@ -48,6 +48,10 @@ h1,h2,h3,h4,h5,h6{
     --tw-bg-opacity: 1;
     background-color: rgb(41 47 54 / var(--tw-bg-opacity));
 }
+.btn-accent{
+    --tw-bg-opacity: 1;
+    background-color: rgb(205 162 116 / var(--tw-text-opacity));
+}
 .btn-primary:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(52 62 78 / var(--tw-bg-opacity));
