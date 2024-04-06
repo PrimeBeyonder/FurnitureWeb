@@ -14,7 +14,7 @@ const Header = () => {
 <i className="ri-menu-4-line text-4xl text-primary" onClick={()=> setToggle(!toggle)}></i>
 </div>
 
-      <ul className={toggle ? "fixed w-full bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-500 h-[350px] p-6" : "fixed w-full bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-500 h-[0]"}>
+      <ul className={toggle ? "fixed w-full bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-500 h-[350px] p-6" : "fixed w-full bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-8 font-semibold lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-500 h-[0]"}>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Testimonials</a></li>
