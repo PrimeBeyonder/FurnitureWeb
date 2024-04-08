@@ -37,12 +37,12 @@ function App() {
     sr.reveal(".stats__item" , {distance:"100px", interval:100});
     sr.reveal(".news__title");
     sr.reveal(".news__titles" ,{delay: 200});
-    sr.reveal(".news__item" , {delay: 800, distance: "100px", delay:800});
+    sr.reveal(".news__item" , {delay: 600, distance: "70px", delay:800});
     sr.reveal(".contact__container");
     sr.reveal(".about__title");
-    sr.reveal(".about__titles", {delay:600});
+    sr.reveal(".about__titles", {delay:400});
     sr.reveal(".footer__item", {interval:200});
-    sr.reveal(".footer__copyright", {delay:500});
+    sr.reveal(".footer__copyright", {delay:300});
 
 
     },[])
